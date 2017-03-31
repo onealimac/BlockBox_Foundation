@@ -30,6 +30,7 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+	
 }
 .defaultHeader h1 {
     margin-bottom: 0em;
@@ -203,6 +204,10 @@ left:48%;
 margin-left: -275px;
 border-spacing: 0;
 border-collapse: collapse;
+}
+
+#selectItemTable{
+	border-collapse: collapse;
 }
 
 #dashAllContent td, #accountSettingsVersions td {
