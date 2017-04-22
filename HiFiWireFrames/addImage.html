@@ -123,56 +123,48 @@
   <h1 ="rightSectionH1">Hub Home</h1>
 </header>
   <h2 style="color: #A9A9A9">Click <a style="color: #A9A9A9" href="tbd">here</a> to add your first item.</h2>
-  <table style="color: black" border="2px" class="centeredTable" id="selectItemTable">
+  <table style="color: black" border="2px" class="centeredTable" id="selectItemTable1">
 	<tr height="20px" bgcolor="#A9A9A9">
-		<td style="text-align: left" class="borderLessTD"><span class="fa fa-arrow-left fa-1x"/>&nbsp;&nbsp;<span class="fa fa-heart-o fa-1x"/></td>
+		<td colspan="2" style="text-align: left" class="borderLessTD"><span class="fa fa-arrow-left fa-1x"/>&nbsp;&nbsp;<span class="fa fa-heart-o fa-1x"/></td>
 		<td style="text-align: right" class="borderLessTD"><span class="fa fa-trash fa-1x"/>&nbsp;&nbsp;<span class="fa fa-window-close-o fa-1x"/>&nbsp;</td>
 	</tr>
-	<tr height="20px">
-		<td style="text-align: left" class="borderLessTD">&nbsp;&nbsp;Select item type:</td>
+	<tr>
+		<td colspan="2" style="text-align: left" valign="top" class="borderLessTD">&nbsp;&nbsp;&nbsp;Select item type:</td>
 		<td style="text-align: left" class="borderLessTD">
 		<select size="1" name="Item">
-			<option selected="selected" value="Note">Note</option>
+			<option value="Note">Note</option>
 			<option value="Link">Link</option>
-			<option value="Images">Image</option>
+			<option selected="selected" value="Images">Image</option>
 			<option value="Audio">Audio</option>
 			<option value="Video">Video</option>
 		</select>
-		<br />
-		<br />
 		</td>
 	</tr>
-	<tr height="20px">
-		<td style="vertical-align: top" style="text-align: left" class="borderLessTD">Select or Add a box for this note:</td>
+	<tr><td class="borderLessTD">&nbsp;</td></tr>
+	<tr>
+		<td colspan="2" style="vertical-align: top" style="text-align: left" class="borderLessTD">Select or Add a box for this note:</td>
 		<td style="text-align: left" class="borderLessTD">
 		<select size="1" name="Box">
-			<option selected="selected" value="New Box">Add New Box</option>
-			<option value="Box1">Box 1</option>
+			<option value="New Box">Add New Box</option>
+			<option selected="selected" value="Box1">Box 1</option>
 			<option value="Box2">Box 2</option>
 			<option value="Box3">Box 3</option>
 			<option value="Box4">Box 4</option>
 		</select>
 		<br />
-		<br />
 		</td>
 	</tr>
+		<tr><td class="borderLessTD">&nbsp;</td></tr>
 	<tr>
-		<td colspan="2" style="text-align: left" class="borderLessTD">&nbsp;&nbsp;Box Name:</td>
+	<td colspan="3" style="text-align: left" class="borderLessTD">&nbsp;&nbsp;Image Name:&nbsp;&nbsp;<input size="40" type="text" id="Name" value="Enter a name for this image." /></td>
 	</tr>
-	<tr height="20px">
-	<td colspan="2" style="text-align: left" class="borderLessTD">&nbsp;&nbsp;<input size="50" type="text" id="Name" value="Enter the new box name." /> <br /> <br /></td>
-	</tr>
-	<tr height="20px">
-	<td colspan="2" style="text-align: left" class="borderLessTD">&nbsp;&nbsp;Note Title:<br/>&nbsp;&nbsp;<input size="50" type="text" id="Name" value="Enter a title for this note." /> <br /> <br /></td>
-	</tr>
-	<tr height="20px">
-	<td colspan="2" style="text-align: left" class="borderLessTD">&nbsp;&nbsp;Note Content:<br/>&nbsp;&nbsp;<textarea rows="5" cols="40">
- Write your note here. 
-</textarea> <br /><br /></td>
-	</tr>
+	<tr><td class="borderLessTD">&nbsp;</td></tr>
 	<tr>
-	<td style="text-align: center" colspan="2" class="borderLessTD"><button style="width:100px;height:40px">Save</button><br/></td>
+	<td width="33%" class="borderLessTD">&nbsp;</td>
+	<td style="text-align: center"><span class="fa fa-file-image-o fa-5x"/><br /><h2>Drag 'n Drop, click to browse.</h2></td>
+	<td class="borderLessTD">&nbsp;</td>
 	</tr>
+	<tr><td class="borderLessTD">&nbsp;</td></tr>	
   </table>
 </div>
 <!-- Footer -->
